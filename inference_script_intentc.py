@@ -85,7 +85,7 @@ bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_cas
 dataset_path='/home/pi/ros2_foxy/src/intentc/intentc/test.txt'
 
 t1=time.time()
-for i in range(20):
+for i in range(0):
 	x=2
 t1=(time.time()-t1)/20
 arr=[]
