@@ -76,9 +76,9 @@ model = load_ner_model(model_name)
 c=0
 
 t1=time.time()
-for i in range(20):
+for i in range(100):
     x=2
-t1=(time.time()-t1)/20
+t1=(time.time()-t1)/100
 
 arr=[]
 with open(dataset_path) as f:
@@ -86,11 +86,11 @@ with open(dataset_path) as f:
     for line in lines:
     #line='Indiana is 13th in the Eastern Conference with a 25-55 record. At the trade deadline, the Pacers reset their competitive timeline by sending All-Star Domantas Sabonis, Justin Holiday, Jeremy Lamb, and a second-round pick in 2023 to the Sacramento Kings for Tyrese Haliburton, Buddy Hield, and Tristan Thompson.'
         t2=time.time()
-        for i in range(20):  
+        for i in range(100):  
             count=0
             feature_annotation = annotate_text(line, 'ORG', model_name, model)
             
-        t2=(time.time()-t2)/20
+        t2=(time.time()-t2)/100
         arr.append(t2-t1)
         print(t2-t1)
         #print(feature_annotation)
