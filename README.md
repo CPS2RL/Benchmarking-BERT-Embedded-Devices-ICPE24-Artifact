@@ -10,7 +10,7 @@ Saved model link:https://figshare.com/account/home#/projects/169256
 
 To measure the energy we used UM25C energy meter.     
 To measure system memory consumption, we used @profile method of python.   
-Deatils can be found by analyzing the code of `publisher_member_function.py`    
+Deatils can be found by analyzing the code of `inference_script_NER.py`    
   
 **Data-set link**   
 
