@@ -8,9 +8,9 @@ We have trained the Bert model offline and put it on the BERT folder inside Inte
 
 Install the necessary python library listed in `required python library`  
 
-Update the file path and txt file path in `inference_script_intentc.py` and `inference_script_ner.py`.
+Update the file path and txt file path in `inference_script_intentc.py` (line 81,88) and `inference_script_ner.py` (line 24,68).
 
-Saved model link:https://figshare.com/account/home#/projects/169256
+Saved model link:https://figshare.com/account/home#/projects/169256 (you might need to open an account in Fig Share )
 
 To measure the energy we used UM25C energy meter.     
 To measure system memory consumption, we used `@profile` method of python.   
