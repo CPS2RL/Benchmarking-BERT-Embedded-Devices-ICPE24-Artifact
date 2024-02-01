@@ -4,7 +4,9 @@
 
 
 We used different embedded platform for conducting Intent Classification (IC) and Name Entity Recognition (NER) tasks.
-We have trained the Bert model offline and put it on the BERT folder inside Intent Classification or NER folder.  
+We have trained the Bert model offline and put it on the BERT folder inside Intent Classification or NER folder.
+
+Update the file path and txt file path in `inference_script_intentc.py` and `inference_script_ner.py`.
 
 Saved model link:https://figshare.com/account/home#/projects/169256
 
