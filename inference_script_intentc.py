@@ -76,12 +76,15 @@ mlb=MultiLabelBinarizer()
 actions=["admiration", "amusement","anger","annoyance","approval","caring","confusion","curiosity","desire","disappointment","disapproval","disgust","embarrassment","excitement","fear","gratitude","grief","joy","love","nervousness","optimism","pride","realization","relief","remorse","sadness","surprise","neutral"]
 labels=mlb.fit_transform([actions])
 text="list airlines flying from seattle to salt lake city"
+
+##update the saved model path
 path="/home/pi/ros2_foxy/src/intentc/intentc/bert/Layer8_90/"
 config = AutoConfig.from_pretrained(path)
 model = BertClassifier(h_size_bert=768, h_size_classifier=50, number_labels=28,config= config)
 model.load_state_dict(torch.load(path+'pytorch_model.bin',map_location=torch.device('cpu')))
 bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased', do_lower_case=True)
 
+##update the pathe with intentc_test.txt file path
 dataset_path='/home/pi/ros2_foxy/src/intentc/intentc/test.txt'
 
 t1=time.time()
