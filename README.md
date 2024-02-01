@@ -1,4 +1,4 @@
-### Benchmarking BERT-based NLP models on Embedded Devices (Raspberry Pi)
+### Benchmarking BERT-based NLP models on Embedded Devices (Raspberry Pi, Jetson, UDOO and UP board)
 
 **How to use the code?**  
 
