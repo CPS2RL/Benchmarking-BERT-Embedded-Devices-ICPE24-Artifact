@@ -12,7 +12,7 @@ Update the file path and txt file path in `inference_script_intentc.py` and `inf
 Saved model link:https://figshare.com/account/home#/projects/169256
 
 To measure the energy we used UM25C energy meter.     
-To measure system memory consumption, we used @profile method of python.   
+To measure system memory consumption, we used `@profile` method of python.   
 Deatils can be found by analyzing the code of `inference_script_NER.py`    
   
 **Data-set link**   
