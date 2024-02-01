@@ -19,9 +19,8 @@ from memory_profiler import profile
 import requests
 import psutil
 
-#BERT_LOC='/home/hri/HRI/ner/ner/bert/Layer2/'
 
-
+## update the path with saved model
 BERT_LOC='/home/pi/ros2_foxy/src/ner/ner/bert/Layer8_90/'
 
 
@@ -65,8 +64,8 @@ def annotate_text(text, active_feature, ner_name, ner):
 
 
 
-
-dataset_path='/home/pi/ros2_foxy/src/ner/ner/test.txt'
+##update the path with intentc_test.txt file
+dataset_path='/home/pi/ros2_foxy/src/ner/ner/intentc_test.txt'
 
 # with open(dataset_path, "r") as f:
 #     data = json.loads(f.read())
