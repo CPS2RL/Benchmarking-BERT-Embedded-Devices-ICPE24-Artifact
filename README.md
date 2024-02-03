@@ -10,7 +10,7 @@ Install the necessary python library listed in `required python library`
 
 Update the file path and txt file path in `inference_script_intentc.py` (line 81,88) and `inference_script_ner.py` (line 24,68).
 
-Saved model link:https://figshare.com/account/home#/projects/169256 (you might need to open an account in Fig Share )
+Saved model link:https://doi.org/10.6084/m9.figshare.23304692.v2  https://doi.org/10.6084/m9.figshare.23304662 (you might need to open an account in Fig Share )
 
 To measure the energy we used UM25C energy meter.     
 To measure system memory consumption, we used `@profile` method of python.   
