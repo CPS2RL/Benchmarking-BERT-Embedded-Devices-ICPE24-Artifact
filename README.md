@@ -1,5 +1,7 @@
 ### Benchmarking BERT-based NLP models on Embedded Devices (Raspberry Pi, Jetson, UDOO and UP board)
 
+_Artifact and code for "Processing Natural Language on Embedded Devices: How Well Do Modern Models Perform?", ICPE'24._  
+
 **How to use the code?**  
 
 
